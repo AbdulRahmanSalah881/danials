@@ -1,0 +1,88 @@
+ p , span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(116, 129, 130);
+}
+
+.title a{
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+
+}
+.title-sec a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}
+.Homepage h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 55px;
+    font-style: normal;
+
+}
+.Homepage h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 65px;
+    font-style: normal;
+
+}
+.Title h2 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 55px;
+    font-style: normal;
+
+}
+
+.number p {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(116, 129, 130);
+
+}
+
+.about h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    font-style: normal;
+    color: rgb(52, 52, 52);
+
+
+}
+.Services h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(52, 52, 52);
+}
+.Portfolio .textbasic{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(52, 52, 52);
+
+}
+.nav-pills .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(34, 34, 34)
+}

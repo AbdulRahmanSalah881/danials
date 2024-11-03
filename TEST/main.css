@@ -1,0 +1,581 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --bs-main-color: #F7F7F7;
+}
+
+/* Home page  */
+
+.Homepage {
+    background-image: url(../image/image01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.Homepage .layer {
+    background-color: rgba(0, 0, 0, 0.499);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.Homepage .layer .Test {
+
+    animation: typed 7s linear infinite;
+    font-size: 45px;
+
+}
+
+.Test::after {
+    content: "";
+    animation: typed 7s linear infinite;
+    font-size: 45px;
+}
+
+@keyframes typed {
+    0% {
+        content: "";
+    }
+
+    1.79% {
+        content: "d";
+    }
+
+    3.57% {
+        content: "De";
+    }
+
+    5.36% {
+        content: "Des";
+    }
+
+    7.14% {
+        content: "Desi";
+    }
+
+    8.93% {
+        content: "Desig";
+    }
+
+    10.71% {
+        content: "Design";
+    }
+
+    12.50% {
+        content: "Designe";
+    }
+
+    14.29% {
+        content: "Designer";
+    }
+
+    16.07% {
+        content: "Designe";
+    }
+
+    17.86% {
+        content: "Design";
+    }
+
+    19.64% {
+        content: "Desig";
+    }
+
+    21.43% {
+        content: "Desi";
+    }
+
+    23.21% {
+        content: "Des";
+    }
+
+    25.00% {
+        content: "De";
+    }
+
+    26.79% {
+        content: "Dev";
+    }
+
+    28.57% {
+        content: "Deve";
+    }
+
+    30.36% {
+        content: "Devel";
+    }
+
+    32.14% {
+        content: "Develo";
+    }
+
+    33.93% {
+        content: "Develop";
+    }
+
+    35.71% {
+        content: "Develope";
+    }
+
+    37.50% {
+        content: "Developer";
+    }
+
+    39.29% {
+        content: "Develope";
+    }
+
+    41.07% {
+        content: "Develop";
+    }
+
+    42.86% {
+        content: "Develo";
+    }
+
+    44.64% {
+        content: "Devel";
+    }
+
+    46.43% {
+        content: "Deve";
+    }
+
+    48.21% {
+        content: "Dev";
+    }
+
+    50.00% {
+        content: "De";
+    }
+
+    51.79% {
+        content: "D";
+    }
+
+    53.57% {
+        content: "";
+    }
+
+    55.36% {
+        content: "L";
+    }
+
+    57.14% {
+        content: "La";
+    }
+
+    58.93% {
+        content: "Lar";
+    }
+
+    60.71% {
+        content: "Larr";
+    }
+
+    62.50% {
+        content: "Larry";
+    }
+
+    64.29% {
+        content: "Larry D";
+    }
+
+    66.07% {
+        content: "Larry Da";
+    }
+
+    67.86% {
+        content: "Larry Dan";
+    }
+
+    69.64% {
+        content: "Larry Dani";
+    }
+
+    71.43% {
+        content: "Larry Danie";
+    }
+
+    73.21% {
+        content: "Larry Daniel";
+    }
+
+    75.00% {
+        content: "Larry Daniels";
+    }
+
+    76.79% {
+        content: "Larry Daniel";
+    }
+
+    78.57% {
+        content: "Larry Danie";
+    }
+
+    80.36% {
+        content: "Larry Dani";
+    }
+
+    82.14% {
+        content: "Larry Dan";
+    }
+
+    83.93% {
+        content: "Larry Da";
+    }
+
+    85.71% {
+        content: "Larry D";
+    }
+
+    87.50% {
+        content: "Larry";
+    }
+
+    89.29% {
+        content: "Larr";
+    }
+
+    91.07% {
+        content: "Lar";
+    }
+
+    92.86% {
+        content: "La";
+    }
+
+    94.64% {
+        content: "L";
+    }
+
+    96.43% {
+        content: "";
+    }
+
+    98.21% {
+        content: "";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+.circle {
+    background-color: rgba(0, 0, 0, 0.614);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+}
+
+.circle a {
+    color: aliceblue;
+}
+
+
+/* aboyt part */
+.progress-bar {
+    background-color: black;
+}
+
+.progress,
+.progress-stacked {
+    height: 30px;
+    background-color: #F0F0F0;
+
+}
+
+.btn-1 {
+    font-size: 15px;
+    padding: auto;
+    transition: 0.1s 0.1s;
+}
+
+.btn-2 {
+    font-size: 15px;
+    padding: auto;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.1s 0.1s;
+}
+
+.btn-1:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+
+
+}
+
+.btn-2:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+}
+
+.about .dots::after {
+    content: "";
+    width: 60%;
+    height: 75%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+
+    background-image: url(../image/image5551.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+
+/* Thierd part */
+
+.titledots::after {
+    content: "";
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    background-image: url(../image/image5551.png);
+    background-repeat: repeat;
+    z-index: 5;
+
+
+}
+
+.circle-servies {
+    background-color: #F7F7F7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+.Title {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    font-style: normal;
+
+}
+
+.circleblack:hover .circle-servies {
+    background-color: #000000;
+    color: #F7F7F7;
+
+}
+
+/* portfolio */
+
+.nav-pills .nav-link.active {
+
+    background-color: white;
+    color: black;
+}
+
+.Portfolio.active::before {
+    content: "";
+    width: 100px;
+    height: 30px;
+
+    background-color: #000000;
+    position: absolute;
+    top: 30px;
+    height: 30px;
+
+}
+
+.layer2 {
+    background-color: #ffffff99;
+    position: absolute;
+    width: 85%;
+    height: 90%;
+    top: 5%;
+    left: 7.5%;
+    transform: translateY(2000px);
+    transition: 0.5s;
+}
+
+.circle-layer2 {
+    background-color: #F7F7F7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+.layerbasic:hover .layer2 {
+    transform: translateY(0%);
+
+}
+
+.textbasic {
+
+    position: absolute;
+    top: -20%;
+    transition: top 0.7s;
+
+}
+
+.layerbasic:hover .textbasic {
+    position: absolute;
+    top: 35%;
+
+}
+
+.circle-layer2:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.circle-Testimonials {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F7F7F7;
+}
+
+.circle-Testimonials img {
+
+    width: 100%;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #869791;
+
+}
+
+/* nuber section */
+.number h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    font-style: normal;
+}
+
+.number p {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(116, 129, 130);
+
+}
+
+.browen {
+
+    background-color: #5B5B5B;
+    width: 100%;
+    height: 100%;
+}
+
+.layerrotern {
+    background-color: #ffffffc9;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+   opacity: 0;
+    transform: rotateY(180deg);
+    transition: 0.5s;
+
+
+}
+
+.browen:hover .layerrotern {
+   
+    transform: rotateY(360deg);
+    opacity: 1;
+
+
+}
+.circleteam {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    font-size: 25px;
+    
+}
+.circleteam:hover{
+    background-color: #F7F7F7;
+    color: #000000;
+    border: 2px solid #000000;
+}
+/* Contact Us. */
+.circleContactUs{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--bs-main-color);
+    font-size: 30px;
+    transition: 0.5s;
+    
+}
+.circleContactUs:hover{
+
+    background-color: #000000;
+    color: #F7F7F7;
+}
+
+.coonent{
+    height: 200px;
+}
+.buttonlast{
+background-color: #000000;
+color: #F0F0F0;
+padding: 10px 30px;
+transition: 0.5s;
+
+
+}
+.buttonlast:hover{
+
+    border: 1px solid black;
+}
+.last{
+    height: 150px;
+    color: #F0F0F0;
+}
